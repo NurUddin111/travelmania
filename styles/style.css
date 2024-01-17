@@ -1,3 +1,161 @@
-.h{
-    color: red;
+/* Navbar */
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.logo {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.logo img {
+  height: 40px;
+  width: 40px;
+}
+
+.nav-list {
+  display: flex;
+  gap: 60px;
+  list-style: none;
+}
+
+.nav-list li a {
+  text-decoration: none;
+  color: #424247;
+  font-size: 18px;
+}
+
+.nav-list li a:hover {
+  color: #ff5400;
+}
+
+.hamburger {
+  display: none;
+}
+
+/* Banner */
+
+.banner {
+  height: 600px;
+  width: 1200px;
+  background-image: url(../styles/Images/banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 160px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-title {
+  color: #fff;
+  font-size: 64px;
+  font-weight: 800;
+}
+
+.banner-desc {
+  color: #fff;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.choose-your-tour {
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 8px;
+  height: 60px;
+  width: 900px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-primary {
+  height: 40px;
+  width: 200px;
+  color: rgba(19, 19, 24, 0.5);
+  font-size: 16px;
+  border: transparent;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.btn-find {
+  background-color: #ff5400;
+  color: white;
+}
+
+/* The Following CSS styles are for Mobile devices  */
+
+@media screen and (max-width: 600px) {
+  /* nav bar */
+
+  .nav {
+  }
+
+  .logo {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .logo h1 {
+    font-size: 20px;
+  }
+
+  .logo img {
+    height: 20px;
+    width: 20px;
+  }
+
+  .nav-list {
+    display: none;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+
+  /* Banner  */
+
+  .banner {
+    height: 500px;
+    width: 280px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 10px;
+    border-radius: 10px;
+  }
+
+  .banner-title {
+    font-size: 22px;
+    font-weight: 800;
+  }
+
+  .banner-desc {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px; 
+  }
+
+  .choose-your-tour {
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 8px;
+    height: 240px;
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+
 }
