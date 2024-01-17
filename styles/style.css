@@ -114,7 +114,34 @@
   line-height: 26px;
 }
 
+/* Choose your destination */
+
+.destination h1 {
+  color: #131318;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.destination p {
+  color: rgba(19, 19, 24, 0.7);
+  text-align: center;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.places {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
 /* Why Choose Us  */
+
+.choose-us {
+    margin-top: 100px;
+}
 
 .choose-us h1 {
   color: #131318;
@@ -144,7 +171,6 @@
 
 .choose-us-why p {
   color: rgba(19, 19, 24, 0.7);
-  text-align: center;
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
@@ -172,6 +198,86 @@
 .p-2 {
   display: flex;
   justify-content: center;
+}
+
+/* Subscribe  */
+
+.subscribe {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.newsletter {
+  width: 400px;
+  height: 422px;
+  border-radius: 16px;
+  border: 1px solid #ff5400;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.newsletter h1 {
+  color: #131318;
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.newsletter p {
+  color: #5a5a5d;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.newsletter input {
+  width: 393px;
+  height: 52px;
+  border-radius: 8px;
+  background: rgba(19, 19, 24, 0.05);
+  margin-bottom: 10px;
+  border: transparent;
+  padding-left: 20px;
+}
+
+.newsletter button {
+  height: 52px;
+  width: 393px;
+}
+
+.footer {
+  margin-top: 100px;
+  margin-left: 120px;
+  width: 1250px;
+  height: 502px;
+  background: rgba(19, 19, 24, 0.05);
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-des {
+  width: 550px;
+  color: #5a5a5d;
+  text-align: center;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.social {
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+}
+
+.line {
+  width: 872px;
+  height: 1px;
+  background: rgba(19, 19, 24, 0.1);
 }
 
 /* The Following CSS styles are for Mobile devices  */
@@ -254,6 +360,25 @@
     width: 280px;
   }
 
+  /* Choose your destination */
+
+.destination h1 {
+    font-size: 20px;
+  }
+  
+  .destination p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  
+  .places {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      justify-content: center;
+      margin-bottom: 20px;
+  }
+
   /* Why Choose Us  */
 
   .choose-us h1 {
@@ -288,7 +413,6 @@
     border-radius: 16px;
     border: 1px solid rgba(251, 181, 99, 0.2);
     padding: 5px;
-    /* margin-left: 15px; */
   }
 
   .p-1 {
@@ -300,5 +424,63 @@
 
   .p-2 {
     justify-content: center;
+  }
+
+  /* Subscribe  */
+
+  .subscribe {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .newsletter {
+    height: 300px;
+    width: 250px;
+  }
+
+  .newsletter h1 {
+    font-size: 20px;
+  }
+
+  .newsletter p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .newsletter input {
+    width: 230px;
+    height: 52px;
+  }
+
+  .newsletter button {
+    width: 250px;
+    height: 52px;
+  }
+
+  /* Footer  */
+
+  .footer {
+    margin-left: 20px;
+    width: 270px;
+    height: 602px;
+  }
+
+  .footer-des {
+    width: 250px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+
+  .social {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+  }
+
+  .line {
+    width: 250px;
+    height: 1px;
+    background: rgba(19, 19, 24, 0.1);
   }
 }
